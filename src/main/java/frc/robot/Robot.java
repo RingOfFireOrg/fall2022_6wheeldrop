@@ -36,7 +36,7 @@ public class Robot extends TimedRobot {
     // We need to invert one side of the drivetrain so that positive voltages
     // result in both sides moving forward. Depending on how your robot's
     // gearbox is constructed, you might have to invert the left side instead.
-    m_rightMotor.setInverted(true);
+    //m_rightMotor.setInverted(true);
 
     m_myRobot = new DifferentialDrive(m_leftMotor, m_rightMotor);
     m_leftStick = new Joystick(1);
